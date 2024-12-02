@@ -1,0 +1,59 @@
+
+.testing{
+    font-family: 'Netflix',sans-serif;
+    font-size: 2.3rem;
+}
+
+.navbox{
+    width: 44.4rem;
+    height: 5rem;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: #3F3F3F; */
+
+
+
+}
+
+.navbox ul{
+    width: 44.4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 2px solid green; */
+    font-size: 1.6rem;
+    font-family: 'Netflix',sans-serif;
+    border-radius: 4rem;
+    -webkit-border-radius: 4rem;
+    -moz-border-radius: 4rem;
+    -ms-border-radius: 4rem;
+    -o-border-radius: 4rem;
+    padding: 1rem;
+    background-color: #3F3F3F;
+}
+
+.navbox ul li{
+    list-style-type:none;
+}
+.navbox ul li a{
+ color: rgb(213, 213, 213);   
+}
+
+.navbox ul li a:hover{
+    color: white;
+}
+
+@media screen and (max-width:42.8rem) {
+    .navbox{
+        border: 1px solid white;
+        width: 32rem;
+        display: block;
+    }
+    .navbox ul{
+        width: 100%;
+        font-size: 1rem;
+        padding: 1rem;  
+    }
+}

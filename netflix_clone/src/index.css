@@ -1,0 +1,110 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: 'Netflix';
+  src: url('./assets/font/NetflixSans_W_Rg.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+  background-color: black;
+}
+html{
+  font-size: 62.5%;
+}
+
+a{
+  text-decoration: none;
+}
+
+/* body{
+  background-color: black;
+} */
+#root{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+
+
+
+/* @media screen and (min-width:1800px) {
+  html{
+    font-size: 66%;
+  }
+} */
+
+@media screen and (min-width:1700px) and (max-width:1800px) {
+  html{
+    font-size: 60%;
+  }
+}
+
+@media screen and (min-width:1600px) and (max-width:1700px) {
+  html{
+    font-size: 57%;
+  }
+}
+
+@media screen and (min-width:1550px) and (max-width:1600px) {
+  html{
+    font-size: 55%;
+  }
+}
+
+@media screen and (min-width:1500px) and (max-width:1550px) {
+  html{
+    font-size: 53%;
+  }
+}
+
+@media screen and (min-width:1400px) and (max-width:1500px) {
+  html{
+    font-size: 51%;
+  }
+}
+
+
+@media screen and (min-width:1350px) and (max-width:1400px) {
+  html{
+    font-size: 45%;
+  }
+}
+
+@media screen and (min-width:1300px) and (max-width:1350px) {
+  html{
+    font-size: 42%;
+  }
+}
+
+@media screen and (min-width:1250px) and (max-width:1300px) {
+  html{
+    font-size: 41%;
+  }
+}
+
+@media screen and (min-width:1200px) and (max-width:1250px) {
+  html{
+    font-size: 41.5%;
+  }
+}
+
+@media screen and (min-width:1150px) and (max-width:1200px) {
+  html{
+    font-size: 40%;
+  }
+}
+
+@media screen and (min-width:1100px) and (max-width:1150px) {
+  html{
+    font-size: 38%;
+  }
+}

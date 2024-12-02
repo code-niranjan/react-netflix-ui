@@ -1,0 +1,92 @@
+.popular-now{
+    width: 150.1rem;
+    /* background-color: #272727; */
+    /* height: 43.17rem; */
+    /* border: 2px solid blue; */
+  }
+
+.popular-show-heading{
+    height: 6.3rem;
+    font-size: 3.8rem;
+    /* border: 1px solid red; */
+    font-family: 'Netflix',sans-serif;
+    font-weight: 700;
+    margin-top: 3rem;
+    color: white;
+}
+
+.all-card-box{
+    margin-top: 1rem;
+    height: calc(100% - 4.3rem);
+    /* border: 3px solid green; */
+    display: grid;
+    grid-template-columns: repeat(10, 1fr); /* 6 equal columns */
+    gap: 1rem; /* Space between items */
+    align-items: center;
+    justify-items: center;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.whole-box{
+    /* border: 2px solid purple; */
+    height: 41.5rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.whole-box::after{
+    content: '';
+    width: 15rem;
+    height: 100%;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 19%, rgba(145,141,141,0) 74%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    z-index: 2;
+}
+
+.whole-box::before{
+    content: '';
+    width: 15rem;
+    height: 100%;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(145,141,141,0) 19% , rgba(0,0,0,1) 74%);
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    z-index: 2;
+}
+
+.whole-box.scroll-start::before {
+    opacity: 0.5; /* Example: Adjust opacity when at the start */
+    display: none;
+  }
+
+
+  .whole-box.scroll-end::after {
+    opacity: 0.5; /* Example: Adjust opacity when at the end */
+    display: none;
+  }
+
+.popular-button{
+    z-index: 3;
+    /* border: 2px solid red; */
+}
+
+.popular-button-hide{
+    display: none;
+}
+
+.popular-button i{
+    font-size: 3rem;
+    z-index: 10; 
+}
+
+.change-color{
+    background-color: red;
+}

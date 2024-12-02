@@ -1,0 +1,38 @@
+
+
+#last-button{
+    background-color: #0F0F0F;
+}
+.last-button-box{
+    width: 150.1rem;
+    /* height: 5rem; */
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:2rem;
+    gap: 1rem;
+    background-color: #0F0F0F;
+    
+}
+
+.last-button-real button{
+    height: 4rem;
+    padding: 2rem;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    background-color: red;
+    color: #FFFFFF;
+}
+
+.last-button-text{
+    font-size: 1.6rem;
+    font-family: 'Netflix',sans-serif;
+    color: #FFFFFF;
+}

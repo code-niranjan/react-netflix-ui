@@ -1,0 +1,99 @@
+
+
+.cta-box{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: black;
+}
+
+.cta-email-input{
+    /* border: 1px solid pink; */
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.cta-text{
+    font-size: 1.8rem;
+    font-family: 'Netflix',sans-serif;
+    color: white;
+}
+
+.cta-input{
+    width: 34.2rem;
+    height: 5.6rem;
+    /* border: 1px solid red; */
+    border-radius: 5rem;
+    -webkit-border-radius: 5rem;
+    -moz-border-radius: 5rem;
+    -ms-border-radius: 5rem;
+    -o-border-radius: 5rem;
+    padding-left: 2rem;
+    padding-right: 1.6rem;
+    padding-top: 2.4rem;
+    padding-bottom: .8rem;
+    background-color: #3F3F3F;
+    color: #fcfcfc;
+    /* color: white; */
+    font-size: 1.6rem;
+    border: none;
+    outline: none;
+}
+
+.cta-input:focus{
+    outline: 2px solid red;
+}
+
+
+.input-label{
+    font-family: 'Netflix',sans-serif;
+    position: absolute;
+    /* color: #BABABA; */
+    color: white;
+    pointer-events: none;
+    font-size: 1.6rem;
+    top: 2rem;
+    left: 2rem;
+    transition: all .3s  ease;
+    -webkit-transition: all .3s  ease;
+    -moz-transition: all .3s  ease;
+    -ms-transition: all .3s  ease;
+    -o-transition: all .3s  ease;
+}
+.cta-input:focus + .input-label{
+    /* color: green; */
+    
+    font-size: 1.2rem;
+    position: absolute;
+    top: 1rem;
+}
+
+.cta-button button{
+    width: 22.9rem;
+    height: 5.6rem;
+    border-radius: 5rem;
+    -webkit-border-radius: 5rem;
+    -moz-border-radius: 5rem;
+    -ms-border-radius: 5rem;
+    -o-border-radius: 5rem;
+    font-size: 2.4rem;
+    font-weight: 550;
+    color: white;
+    background-color: #e82630;
+    outline: none;
+    border: none;
+}
+
+.cta-button button i{
+    margin-left: 1rem; 
+}
+
+
+
+@media screen and (max-width:42.8rem) {
+    .cta-input-button-box{
+        display: block;
+        flex-direction: column;
+    }
+
+}
